@@ -19,10 +19,18 @@ export default function HomePage() {
           Find UK cycling events faster
         </h1>
 
-        <p className="mb-8 text-lg leading-8 text-gray-600">
+        <p className="mb-6 text-lg leading-8 text-gray-600">
           Sportives, road races, time trials and gravel events — all in one
           place. CycleScan will track entry status, routes and key event details
           so you can plan your season with confidence.
+        </p>
+
+        {/* ✅ INTERNAL SEO LINK */}
+        <p className="mb-8 text-sm text-gray-500">
+          Looking for UK cycling events?{' '}
+          <a href="/cycling-events-uk" className="underline hover:text-gray-700">
+            Browse the cycling events calendar
+          </a>
         </p>
 
         <form
